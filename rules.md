@@ -27,7 +27,7 @@ For example, if the base number is seven, then a player may play a King (10) and
 If the player scores a point which equals the base number exactly, they may either:
 
 - Steal a point from another player
-- Invert a row/column on the board.  If a player inverts a row, the entire row must be inverted, so all face-down cards turn upward and all face-up cards turn down.  Diagonal "row" flips are not permitted.
+- Invert a row ("row" referring to either a row or a column) on the board.  If a player chooses to invert, the entire row must be inverted, so all face-down cards turn upward and all face-up cards turn down.  Diagonal "row" flips are not permitted.
 
 ### Strategy
 
