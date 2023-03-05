@@ -10,7 +10,7 @@ Players agree upon a number to base the gameplay on.  By default, the base numbe
 
 ## Gameplay
 
-Players take turns completing two steps
+Players take turns completing two steps.  At the end of each player's turn, gaps in the board are refilled with facedown cards from the deck.
 
 ### Draw and Flip
 
