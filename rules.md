@@ -1,10 +1,10 @@
 # Stanford Sevens
 
-A card game using a standard deck in which player(s) attempt to accumulate as many points as possible using cards in-hand and on the board to make multiples of the base number.  Each round continues until the deck runs out, at which point points are totalled and a winner is declared.
+A card game using a standard deck in which player(s) attempt to accumulate as many points as possible using cards in-hand and on the board to make multiples of the base number.  Each round continues until the deck runs out, at which point points are totaled and a winner is declared.
 
 ## Setup
 
-Each player receives 3 cards in their hand.  Players keep their hand private.  The board contains cards facedown in a grid (2x2 for 1-2 players, 3x3 for 3+ players).  The rest of the cards are facedown in a deck next to the board.  Players may not end each turn with more than seven cards in their hand.  If they have more than seven, they must choose cards to discard from their hand until they hold seven or fewer cards.
+Each player receives 3 cards in their hand.  Players keep their hands private.  The board contains cards facedown in a grid (2x2 for 1-2 players, 3x3 for 3+ players).  The rest of the cards are facedown in a deck next to the board.  Players may not end each turn with more than seven cards in their hand.  If they have more than seven, they must choose cards to discard from their hand until they hold seven or fewer cards.
 
 Players agree upon a number to base the gameplay on.  By default, the base number is seven.  The base number can change each round.
 
@@ -27,7 +27,7 @@ For example, if the base number is seven, then a player may play a King (10) and
 If the player scores a point which equals the base number exactly, they may either:
 
 - Steal a point from another player
-- Invert a row/column on the board.  If a player inverts a row, the entire row must be inverted, so all face-down cards turn upward and all face-up cards turn down.
+- Invert a row/column on the board.  If a player inverts a row, the entire row must be inverted, so all face-down cards turn upward and all face-up cards turn down.  Diagonal "row" flips are not permitted.
 
 ### Strategy
 
