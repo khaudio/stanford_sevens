@@ -1,6 +1,6 @@
 # Stanford Sevens
 
-A card game using a standard deck in which player(s) attempt to accumulate as many points as possible using cards in-hand and on the board to make multiples of the base number.  Each round continues until the deck runs out, at which point points are totaled and a winner is declared.
+A card game using a standard deck in which player(s) attempt to accumulate as many points as possible using cards in-hand and on the board to make multiples of the base number.  The match continues until the deck runs out, at which point points are totaled and a winner is declared.
 
 ## Setup
 
@@ -32,4 +32,8 @@ If the player scores a point which equals the base number exactly, they may eith
 ### Strategy
 
 As mentioned, all multiples count as a single point; i.e., following the example with a base number of seven, a Jack (10) and Ace (1 or 11) makes 21, but is worth the same (one point) as four 10's and a 9 (49).  Higher multiples are not worth more points.  Therefore, it is to the player's advantage to use cards to create a greater number of lower-value multiples.  More exact base number (multiple of 1) points means more point-stealing or more row-flipping, so lower-value cards hold higher value than cards which exceed the base number.  That is, A-7 are more valuable than 8-K when playing multiples of seven.
+
+### Solo Play
+
+To play with a single player, play normally; however, the goal becomes not only to score as many points as possible, but to discard as few cards as possible by the end.  When the deck runs out and the last turn ends, subtract the number of cards not used for points from the number of points scored.  For example, if a player scores 25 points and has one card in hand and two left on the board, the final single-player score would be 22.  This assumes that the remaining cards are either face-down, or do not add up to a multiple and therefore cannot be used to score, and must be discarded.
 
